@@ -18,6 +18,7 @@ function BotCollection({ bots, addToArmy, deleteBot }) {
             Health:{bot.health} Damage:{bot.damage} Armor:{bot.armor}
           </p>
           <button
+            className="button-arounder"
             onClick={(e) => {
               e.stopPropagation();
               // prevents the click event from bubbling up to the parent div
